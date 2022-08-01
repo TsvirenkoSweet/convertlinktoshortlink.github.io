@@ -1,0 +1,37 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap > * {
+    margin-bottom: 4px;
+}
+
+#link {
+    border: 2px solid #ff7000;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+#button {
+    border: 2px solid #ff7000;
+    background: #ff7000;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: #ffffff;
+    color: #ff7000;
+    transition: 0.4s;
+}
+
+#loader {
+    display: none;
+    -webkit-user-select: none;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+}
